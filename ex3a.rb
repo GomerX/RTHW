@@ -1,3 +1,5 @@
+# ex3a
+# A version of the script that uses floating point math
 # A simple print
 puts "I will now count my chickens:"
 
@@ -12,7 +14,7 @@ puts "Now I will count the eggs:"
 # 1 + 6
 # 7
 # Integer math is unusual
-puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4.0 + 6
 
 # the setup
 puts "Is it true that 3 + 2 < 5 -7?"
