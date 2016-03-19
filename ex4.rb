@@ -3,13 +3,21 @@
 # From chapter 4 of "Learn Ruby the Hard Way"
 #
 
+# total cars
 cars = 100
+# people per car
 space_in_a_car = 4.0
+# number who can/will drive
 drivers = 30
+# number who ride but not drive
 passengers = 90
+# not all cars have drivers
 cars_not_driven = cars - drivers
+# this variable isn't used. A car can't drive itself
 cars_driven = drivers
+# total capacity, including drivers
 carpool_capacity = cars_driven * space_in_a_car
+# average passengers per car
 average_passengers_per_car = passengers / cars_driven
 
 
