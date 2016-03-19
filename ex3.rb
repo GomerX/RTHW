@@ -1,8 +1,11 @@
+# A simple print
 puts "I will now count my chickens:"
 
+# Counting hens and roosters. #{ } interprets what is inside
 puts "Hens #{25 + 30 / 6}"
 puts "Roosters #{100 - 25 * 3 % 4}"
 
+# It is important to know that eggs are about to be counted.
 puts "Now I will count the eggs:"
 
 puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
