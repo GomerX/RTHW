@@ -3,18 +3,18 @@
 # From chapter 5 of "Learn Ruby the Hard Way"
 #
 
-name = "Zed A. Shaw"
-age = 35 # not a lie in 2009
-height = 74 # inches
-weight = 180 # lbs
-eyes = 'Blue'
-teeth = 'White'
-hair = 'Brown'
+name = "Jeff Ratliff"
+age = 49 # not a lie in early 2016
+height = 12 * 5 + 7 # inches
+weight = 245 # lbs
+eyes = 'blue'
+teeth = 'white'
+hair = 'brown and grey'
 
 puts "Let's talk about #{name}."
 puts "He's #{height} inches tall (which is #{height * 2.54} centimeters)."
 puts "He's #{weight} pounds heavy (which is #{weight / 2.2} kilograms)."
-puts "Actually that's not too heavy."
+puts "Actually that's too heavy."
 puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee."
 
