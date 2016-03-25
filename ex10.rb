@@ -12,8 +12,6 @@ I'll do a list:
 \t* Fishies
 \t* Catnip\n\t* Grass
 """
+formatter = "%{a}\n%{b}\n%{c}\n%{d}"
 
-puts tabby_cat
-puts persian_cat
-puts backslash_cat
-puts fat_cat
+puts formatter % {a: tabby_cat, b: persian_cat, c: backslash_cat, d: fat_cat}
