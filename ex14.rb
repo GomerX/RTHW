@@ -3,7 +3,7 @@
 # The code from chapter 14
 
 user_name = ARGV.first # gets the first argument
-prompt = '> '
+prompt = '? '
 
 puts "Hi #{user_name}."
 puts "I'd like to ask you a few questions."
